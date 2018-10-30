@@ -26,3 +26,29 @@ D:\Projects\Personal\YBS\YBS\obj\x86\Debug\RdlCompile.cache
 D:\Projects\Personal\YBS\YBS\obj\x86\Debug\RdlCompile.compiled
 D:\Projects\Personal\YBS\YBS\obj\x86\Debug\YBS.exe
 D:\Projects\Personal\YBS\YBS\obj\x86\Debug\YBS.pdb
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\Amawathura.csprojResolveAssemblyReference.cache
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Admin.frmLoginWindow.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Common.frmSearch.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Common.frmMsgOkOnly.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Common.frmMsgYesNo.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmMemberUpasthana.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmMemberOther.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmTag.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmEduQualification.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmSchool.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmMemberNDF.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmOccupatition.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Forms.frmUser.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.MDIParent1.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.Properties.Resources.resources
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\Amawathura.csproj.GenerateResource.Cache
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\YBS.exe.config
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\YBS.exe
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\YBS.pdb
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\DBCore.dll
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\MySql.Data.dll
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\Google.Protobuf.dll
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\DBCore.pdb
+D:\Projects Kasun\YBS\YBS\YBS\bin\Debug\MySql.Data.xml
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.exe
+D:\Projects Kasun\YBS\YBS\YBS\obj\x86\Debug\YBS.pdb

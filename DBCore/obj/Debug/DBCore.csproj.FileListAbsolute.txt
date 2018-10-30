@@ -3,3 +3,10 @@ D:\Projects\Personal\YBS\DBCore\bin\Debug\DBCore.dll
 D:\Projects\Personal\YBS\DBCore\bin\Debug\DBCore.pdb
 D:\Projects\Personal\YBS\DBCore\obj\Debug\DBCore.dll
 D:\Projects\Personal\YBS\DBCore\obj\Debug\DBCore.pdb
+D:\Projects Kasun\YBS\YBS\DBCore\bin\Debug\DBCore.dll
+D:\Projects Kasun\YBS\YBS\DBCore\bin\Debug\DBCore.pdb
+D:\Projects Kasun\YBS\YBS\DBCore\bin\Debug\MySql.Data.dll
+D:\Projects Kasun\YBS\YBS\DBCore\bin\Debug\Google.Protobuf.dll
+D:\Projects Kasun\YBS\YBS\DBCore\bin\Debug\MySql.Data.xml
+D:\Projects Kasun\YBS\YBS\DBCore\obj\Debug\DBCore.dll
+D:\Projects Kasun\YBS\YBS\DBCore\obj\Debug\DBCore.pdb

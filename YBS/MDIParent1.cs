@@ -12,7 +12,7 @@ using YBS.Common;
 using YBS.Forms;
 using YBS.Admin;
 using DBCore;
-using YBS.Reporting;
+//using YBS.Reporting;
 
 namespace YBS
 {
@@ -296,49 +296,49 @@ namespace YBS
 
         private void memberButtonItem_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (frmRepMember == null || frmRepMember.MdiParent == null)
-                {
-                    frmRepMember = new frmRepMember();
-                    ViewChildForm(frmRepMember);
-                   // frmRepMember.Width = this.Width - 100;
-                    frmRepMember.Height = this.Height - 130;
-                    frmRepMember.Location = new Point(50, 5);
-                }
-                else
-                {
-                    frmRepMember.Activate();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            //try
+            //{
+            //    if (frmRepMember == null || frmRepMember.MdiParent == null)
+            //    {
+            //        frmRepMember = new frmRepMember();
+            //        ViewChildForm(frmRepMember);
+            //       // frmRepMember.Width = this.Width - 100;
+            //        frmRepMember.Height = this.Height - 130;
+            //        frmRepMember.Location = new Point(50, 5);
+            //    }
+            //    else
+            //    {
+            //        frmRepMember.Activate();
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
         }
 
         private void buttonItem4_Click_1(object sender, EventArgs e)
         {
-            try
-            {
-                if (frmRepMemberAll == null || frmRepMemberAll.MdiParent == null)
-                {
-                    frmRepMemberAll = new frmRepMemberAll();
-                    ViewChildForm(frmRepMemberAll);
-                    // frmRepMember.Width = this.Width - 100;
-                    frmRepMemberAll.Height = this.Height - 150;
-                    frmRepMemberAll.Width = this.Width - 10;
-                    frmRepMemberAll.Location = new Point(5, 5);
-                }
-                else
-                {
-                    frmRepMemberAll.Activate();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            //try
+            //{
+            //    if (frmRepMemberAll == null || frmRepMemberAll.MdiParent == null)
+            //    {
+            //        frmRepMemberAll = new frmRepMemberAll();
+            //        ViewChildForm(frmRepMemberAll);
+            //        // frmRepMember.Width = this.Width - 100;
+            //        frmRepMemberAll.Height = this.Height - 150;
+            //        frmRepMemberAll.Width = this.Width - 10;
+            //        frmRepMemberAll.Location = new Point(5, 5);
+            //    }
+            //    else
+            //    {
+            //        frmRepMemberAll.Activate();
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
         }
 
         private void upasthanaBtn_Click(object sender, EventArgs e)
