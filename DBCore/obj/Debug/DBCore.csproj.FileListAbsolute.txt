@@ -1,0 +1,5 @@
+D:\Projects\Personal\YBS\DBCore\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Personal\YBS\DBCore\bin\Debug\DBCore.dll
+D:\Projects\Personal\YBS\DBCore\bin\Debug\DBCore.pdb
+D:\Projects\Personal\YBS\DBCore\obj\Debug\DBCore.dll
+D:\Projects\Personal\YBS\DBCore\obj\Debug\DBCore.pdb

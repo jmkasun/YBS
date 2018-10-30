@@ -1,0 +1,66 @@
+CREATE DATABASE  IF NOT EXISTS `ybsinfo` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `ybsinfo`;
+-- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
+--
+-- Host: localhost    Database: ybsinfo
+-- ------------------------------------------------------
+-- Server version	5.5.23
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `memberinfo`
+--
+
+DROP TABLE IF EXISTS `memberinfo`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `memberinfo` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(200) DEFAULT NULL,
+  `Address` varchar(200) DEFAULT NULL,
+  `DOB` date DEFAULT NULL,
+  `NIC` varchar(10) DEFAULT NULL,
+  `Mobile` varchar(15) DEFAULT NULL,
+  `HomeTP` varchar(15) DEFAULT NULL,
+  `Email` varchar(45) DEFAULT NULL,
+  `Occupatition` int(11) DEFAULT NULL,
+  `OccupatitioInfo` varchar(200) DEFAULT NULL,
+  `DOJoinAsapuwa` date DEFAULT NULL,
+  `Abilities` varchar(200) DEFAULT NULL,
+  `Contributition` varchar(200) DEFAULT NULL,
+  `BloodGroup` varchar(5) DEFAULT NULL,
+  `Deleted` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `memberinfo`
+--
+
+LOCK TABLES `memberinfo` WRITE;
+/*!40000 ALTER TABLE `memberinfo` DISABLE KEYS */;
+INSERT INTO `memberinfo` VALUES (1,'dsgh','ghshsfghsdfgs','2012-05-08','sh','Mobile Num :','hs','hsgh',-1,'','2012-05-08','sh','sgh','',''),(2,'asdfa','fasdfasd','2012-05-18','sfsdf','Mobile Num :','sdfasdf','asdfasdf',1,'asdfasdf','2012-05-11','asdf','asd','O+','\0');
+/*!40000 ALTER TABLE `memberinfo` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2012-05-08 17:02:02

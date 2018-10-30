@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EBA85151-6E08-4A9D-977B-A78DB254FBA5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YBS</RootNamespace>
+    <AssemblyName>YBS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.2.0.2, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\LoginWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginWindow.Designer.cs">
+      <DependentUpon>LoginWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\MessageView.cs" />
+    <Compile Include="Common\MsgBox\frmMsgOkOnly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\MsgBox\frmMsgOkOnly.Designer.cs">
+      <DependentUpon>frmMsgOkOnly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\MsgBox\frmMsgYesNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\MsgBox\frmMsgYesNo.Designer.cs">
+      <DependentUpon>frmMsgYesNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Utility.cs" />
+    <Compile Include="Forms\Members\frmMemberUpasthana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Members\frmMemberUpasthana.Designer.cs">
+      <DependentUpon>frmMemberUpasthana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Members\frmMemberOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Members\frmMemberOther.Designer.cs">
+      <DependentUpon>frmMemberOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTag.Designer.cs">
+      <DependentUpon>frmTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEduQualification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEduQualification.Designer.cs">
+      <DependentUpon>frmEduQualification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSchool.Designer.cs">
+      <DependentUpon>frmSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Members\frmMemberNDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Members\frmMemberNDF.Designer.cs">
+      <DependentUpon>frmMemberNDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOccupatition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOccupatition.Designer.cs">
+      <DependentUpon>frmOccupatition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUser.designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportingDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportingDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\frmRepMemberAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\frmRepMemberAll.Designer.cs">
+      <DependentUpon>frmRepMemberAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\frmRepMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\frmRepMember.Designer.cs">
+      <DependentUpon>frmRepMember.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\LoginWindow.resx">
+      <DependentUpon>LoginWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\MsgBox\frmMsgOkOnly.resx">
+      <DependentUpon>frmMsgOkOnly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\MsgBox\frmMsgYesNo.resx">
+      <DependentUpon>frmMsgYesNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Members\frmMemberUpasthana.resx">
+      <DependentUpon>frmMemberUpasthana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Members\frmMemberOther.resx">
+      <DependentUpon>frmMemberOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTag.resx">
+      <DependentUpon>frmTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEduQualification.resx">
+      <DependentUpon>frmEduQualification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSchool.resx">
+      <DependentUpon>frmSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Members\frmMemberNDF.resx">
+      <DependentUpon>frmMemberNDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOccupatition.resx">
+      <DependentUpon>frmOccupatition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reporting\frmRepMemberAll.resx">
+      <DependentUpon>frmRepMemberAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\frmRepMember.resx">
+      <DependentUpon>frmRepMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\Rpt\Member.rdlc" />
+    <EmbeddedResource Include="Reporting\Rpt\memberAll.rdlc" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBCore\DBCore.csproj">
+      <Project>{4404A348-3A32-4006-BEC4-5B625044521A}</Project>
+      <Name>DBCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReportingDataset.xsc">
+      <DependentUpon>ReportingDataset.xsd</DependentUpon>
+    </None>
+    <None Include="ReportingDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportingDataset.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReportingDataset.xss">
+      <DependentUpon>ReportingDataset.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\mahamevna-logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahamevna-logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yovun3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upasthana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\other.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
